@@ -8,17 +8,18 @@
 
     <Button
         android:id="@+id/btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="130dp"
+        android:layout_height="48dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="136dp"
-        android:layout_marginTop="574dp"
-        android:text="@string/order"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        tools:ignore="VisualLintButtonSize" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="71dp"
+        android:backgroundTint="#FFFFFF"
+        android:minHeight="48dp"
+        android:text="@string/order_now"
+        android:textColor="#070606"
+        android:textSize="16sp" />
 
 </RelativeLayout>
