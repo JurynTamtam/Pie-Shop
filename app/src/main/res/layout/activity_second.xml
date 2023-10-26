@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pngtree"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/displayTxt"
+        android:layout_width="277dp"
+        android:layout_height="196dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="147dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="81dp"
+        android:textColor="#090707"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-6dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="6dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="@string/your_order"
+        android:textColor="#0C0B0B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="Autofill,LabelFor,VisualLintTextFieldSize,VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="235dp"
+        android:layout_height="95dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="249dp"
+        android:text="@string/thank_you_come_again"
+        android:textSize="20sp"
+        tools:ignore="TextSizeCheck" />
+
+</RelativeLayout>

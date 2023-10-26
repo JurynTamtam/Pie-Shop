@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Pie Shop</string>
+    <string name="order">ORDER</string>
+    <string name="buko_pie_php_35">Buko Pie - Php 35</string>
+    <string name="mango_php_35">Mango - Php 35</string>
+    <string name="ube_pie_php_40">Ube Pie - Php 40</string>
+    <string name="pie_shop">PIE SHOP</string>
+    <string name="caramel">Caramel</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="large_add_php_30_00">Large add Php 30.00</string>
+    <string name="medium_add_php_15_00">Medium add Php 15.00</string>
+    <string name="small">Small</string>
+    <string name="your_order">Your Order</string>
+    <string name="thank_you_come_again">Thank you, come again</string>
+    <string name="order_now">Order Now</string>
+</resources>

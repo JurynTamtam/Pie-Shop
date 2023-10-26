@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pngtree"
+    android:textAlignment="center"
+    tools:context=".MainActivity2">
+
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="89dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="122dp"
+        android:background="#780B21"
+        android:text="@string/buko_pie_php_35"
+        android:textColor="#FFFFFF" />
+
+    <CheckBox
+        android:id="@+id/checkbox2"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginBottom="90dp"
+        android:background="#780B21"
+        android:text="@string/mango_php_35"
+        android:textColor="#EDFFFFFF" />
+
+    <CheckBox
+        android:id="@+id/checkbox3"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkbox2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="5dp"
+        android:background="#780B21"
+        android:text="@string/ube_pie_php_40"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/launchSecondActivityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkbox3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="#780B21"
+        android:minHeight="48dp"
+        android:text="@string/order_now" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginEnd="57dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/pie_shop"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/buko"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="220dp"
+        android:src="@drawable/mango" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="370dp"
+        android:src="@drawable/ube" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="253dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="73dp"
+        android:text="Choose your Order!"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="274dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="90dp"
+        android:text="Size"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="90dp"
+        android:text="Flavor"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="101dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="264dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="285dp"
+        android:text="Toppings  add Php  4.50 each"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/checkbox8"
+        android:layout_width="95dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="260dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="110dp"
+        android:text="@string/small" />
+
+    <CheckBox
+        android:id="@+id/checkbox9"
+        android:layout_width="96dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="260dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="145dp"
+        android:text="@string/medium_add_php_15_00"
+        tools:ignore="TextSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/checkbox10"
+        android:layout_width="90dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="260dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="200dp"
+        android:text="@string/large_add_php_30_00"
+        tools:ignore="TextSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/checkbox4"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="253dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="350dp"
+        android:text="@string/chocolate" />
+
+    <CheckBox
+        android:id="@+id/checkbox5"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="253dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="380dp"
+        android:text="Sprinkles" />
+
+    <CheckBox
+        android:id="@+id/checkbox6"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="253dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="410dp"
+        android:text="Cheese" />
+
+    <CheckBox
+        android:id="@+id/checkbox7"
+        android:layout_width="110dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="253dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="440dp"
+        android:text="@string/caramel" />
+
+</RelativeLayout>
+
